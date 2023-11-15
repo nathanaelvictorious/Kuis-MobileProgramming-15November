@@ -23,7 +23,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Godrej'),
+        title: Text('Toko Buah Bang'),
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -41,8 +41,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Godrej'),
-                      Text('Semua Produk'),
+                      Text('Toko Buah Bang'),
+                      Text('Semua Buah'),
                     ],
                   ),
                   Spacer(),
@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: [
                   Text('Promosi'),
                   SizedBox(width: 10),
-                  Text('DONUS'),
+                  Text('Cashback'),
                   SizedBox(width: 10),
                   Text('10.000'),
                 ],
@@ -69,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
               height: 100,
               child: Row(
                 children: [
-                  Text('Nama Produk 11'),
+                  Text('Nama Produk'),
                   SizedBox(width: 10),
                   Text('Terlaris'),
                 ],
@@ -106,7 +106,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: [
                   Text('Belanja berdasarkan kategori'),
                   SizedBox(width: 10),
-                  Text('Antisept'),
                 ],
               ),
             ),
